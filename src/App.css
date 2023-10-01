@@ -1,38 +1,242 @@
-.App {
+.box{
+  max-width: 60rem;
+  width: 30%;
+  height: auto;
+  margin: 6rem auto;
+  background-color: #9FB7D8;
   text-align: center;
+  transform: translate3d(0,0,0);
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.027); */
+  box-shadow:
+  inset 0 -3em 3em rgba(151, 151, 226, 0.605),
+  0 0 0 2px white,
+  0.3em 0.3em 1em rgba(1, 1, 1, 0.027);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input_type{
+  margin: 15px auto;
+  padding: 0.9rem 4rem;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: left;
+  text-transform: capitalize;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.city_name{
+  padding: 20px 0;
+  font-size: 4rem;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.fa-solid {
   color: white;
+  padding: 0 8px;
 }
 
-.App-link {
-  color: #61dafb;
+.temp{
+  font-size: 2.4rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.temp-max-min{
+  padding-bottom: 20px;
+}
+
+.box .wave{
+  background-color: #81aae3;
+  /* border: 1px solid black; */
+  padding: 20px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+@media only screen and (max-width:1324px) {
+  .box{
+    width: 35%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width:1324px) {
+  .box{
+    width: 38%;
+  }
+}
+
+@media only screen and (max-width:1030px) {
+  .box{
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width:882px) {
+  .box{
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width:817px) {
+  .box{
+    width: 52%;
+  }
+}
+
+@media only screen and (max-width:772px) {
+  .box{
+    width: 58%;
+  }
+}
+
+
+@media only screen and (max-width:670px) {
+  .box{
+    width: 62%;
+  }
+
+  .city_name{
+    font-size: 3.4rem;
+  }
+}
+
+@media only screen and (max-width:640px) {
+  .box{
+    width: 68%;
+  }
+
+  .city_name{
+    font-size: 3.4rem;
+  }
+}
+
+@media only screen and (max-width:578px) {
+  .box{
+    width: 74%;
+  }
+
+  .city_name{
+    font-size: 3.4rem;
+  }
+}
+
+@media only screen and (max-width:550px) {
+  .input_type{
+    padding: 0.9rem 3rem;
+    font-size: 1rem;
+  }
+
+  .city_name{
+    font-size: 3.1rem;
+  }
+
+  .temp{
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width:490px) {
+  .input_type{
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+
+  .city_name{
+    font-size: 3rem;
+  }
+
+  .temp{
+    font-size: 1.9rem;
+  }
+}
+
+@media only screen and (max-width:452px) {
+  .input_type{
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+  }
+
+  .city_name{
+    font-size: 3rem;
+  }
+
+  .temp{
+    font-size: 1.9rem;
+  }
+}
+
+@media only screen and (max-width:385px) {
+  .input_type{
+    padding: 0.6rem 0.7rem;
+  }
+
+  .city_name{
+    font-size: 2.4rem;
+  }
+
+  .temp{
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width:360px) {
+  .input_type{
+    padding: 0.4rem 0.1rem;
+    font-size: 1rem;
+  }
+
+  .city_name{
+    font-size: 2.4rem;
+  }
+
+  .temp{
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width:338px) {
+  .input_type{
+    padding: 0.4rem 0;
+    font-size: 1rem;
+  }
+
+  .city_name{
+    font-size: 2.1rem;
+  }
+
+  .temp{
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width:328px) {
+  .input_type{
+    padding: 0.4rem 0;
+    font-size: 0.9rem;
+  }
+
+  .city_name{
+    font-size: 1.9rem;
+  }
+
+  .temp{
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width:254px) {
+  .input_type{
+    padding: 0.4rem 0;
+    font-size: 0.8rem;
+  }
+
+  .city_name{
+    font-size: 1.4rem;
+  }
+
+  .temp{
+    font-size: 1.3rem;
   }
 }

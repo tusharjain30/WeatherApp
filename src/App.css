@@ -22,14 +22,14 @@
   padding: 0.9rem 4rem;
   outline: none;
   border-radius: 10px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: left;
   text-transform: capitalize;
 }
 
 .city_name{
   padding: 20px 0;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -40,7 +40,7 @@
 }
 
 .temp{
-  font-size: 2.4rem;
+  font-size: 1.8rem;
 }
 
 .temp-max-min{
@@ -108,7 +108,7 @@
   }
 
   .city_name{
-    font-size: 3.4rem;
+    font-size: 3rem;
   }
 }
 
@@ -118,14 +118,13 @@
   }
 
   .city_name{
-    font-size: 3.4rem;
+    font-size: 3rem;
   }
 }
 
 @media only screen and (max-width:550px) {
   .input_type{
     padding: 0.9rem 3rem;
-    font-size: 1rem;
   }
 
   .city_name{
@@ -135,27 +134,30 @@
   .temp{
     font-size: 2rem;
   }
+
+  .city_name{
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (max-width:490px) {
   .input_type{
     padding: 0.8rem 2rem;
-    font-size: 1rem;
   }
 
   .city_name{
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .temp{
     font-size: 1.9rem;
   }
+  
 }
 
 @media only screen and (max-width:452px) {
   .input_type{
     padding: 0.8rem 1rem;
-    font-size: 1rem;
   }
 
   .city_name{
@@ -167,13 +169,27 @@
   }
 }
 
-@media only screen and (max-width:385px) {
+@media only screen and (max-width:445px) {
+  .input_type{
+    padding: 0.8rem 1rem;
+  }
+
+  .city_name{
+    font-size: 2rem;
+  }
+
+  .temp{
+    font-size: 1.9rem;
+  }
+}
+
+@media only screen and (max-width:388px) {
   .input_type{
     padding: 0.6rem 0.7rem;
   }
 
   .city_name{
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .temp{
@@ -184,11 +200,10 @@
 @media only screen and (max-width:360px) {
   .input_type{
     padding: 0.4rem 0.1rem;
-    font-size: 1rem;
   }
 
   .city_name{
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .temp{
@@ -199,11 +214,10 @@
 @media only screen and (max-width:338px) {
   .input_type{
     padding: 0.4rem 0;
-    font-size: 1rem;
   }
 
   .city_name{
-    font-size: 2.1rem;
+    font-size: 2rem;
   }
 
   .temp{
@@ -214,11 +228,10 @@
 @media only screen and (max-width:328px) {
   .input_type{
     padding: 0.4rem 0;
-    font-size: 0.9rem;
   }
 
   .city_name{
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
 
   .temp{
@@ -229,11 +242,10 @@
 @media only screen and (max-width:254px) {
   .input_type{
     padding: 0.4rem 0;
-    font-size: 0.8rem;
   }
 
   .city_name{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 
   .temp{
